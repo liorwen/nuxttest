@@ -1,4 +1,5 @@
-const {resolve} = require('path');
+const webpack = require('webpack');
+
 
 module.exports = {
     /*
@@ -37,6 +38,11 @@ module.exports = {
             }
         },
         publicPath: 'https://liorwen.github.io/nuxttest/',
+        plugins: [
+            new webpack.ProvidePlugin({
+                '$': 'jquery',
+            })
+        ]
 
     },
 }
