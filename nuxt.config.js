@@ -36,7 +36,7 @@ module.exports = {
                 })
             }
         },
-        publicPath: 'https://ann0627.github.io/wetlands/',
+        publicPath: 'https://liorwen.github.io/nuxttest/',
 
     },
 }
