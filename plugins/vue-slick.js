@@ -4,6 +4,7 @@ import Slick from 'vue-slick'
 const VueSlick = {
     install(Vue, option) {
         Vue.component('slick',Slick);
+        console.log('slick installed');
     }
 }
 
