@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542cb3fc-1825-4f1c-98f2-0db5ba563b87" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuxt.config.js" afterPath="$PROJECT_DIR$/nuxt.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuxt.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+            <state relative-caret-position="287">
+              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -61,7 +62,7 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1529745292987" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+                <marker date="1529745379105" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -259,12 +260,12 @@
       <workItem from="1529225780762" duration="74000" />
       <workItem from="1529225865270" duration="10131000" />
       <workItem from="1529653816250" duration="8516000" />
-      <workItem from="1529740975032" duration="3742000" />
+      <workItem from="1529740975032" duration="4167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22494000" />
+    <option name="totallyTimeSpent" value="22919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="390" y="126" width="1440" height="878" extended-state="0" />
@@ -322,7 +323,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1529745292987" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+            <marker date="1529745379105" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -488,7 +489,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1529745292987" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
+            <marker date="1529745379105" expanded="true" signature="395694:395700" ph="{&quot;version&quot;: &quot;0.4.3&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -560,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        <state relative-caret-position="287">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding />
         </state>
       </provider>

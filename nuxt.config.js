@@ -39,11 +39,11 @@ module.exports = {
                     exclude: /(node_modules)/
                 })
             }
-            vendor: ['vue-slick']
         },
+        vendor: ['~/plugins/vue-slick'],
         publicPath: 'https://liorwen.github.io/nuxttest/'
     },
     plugins:[
-        { src: '~/plugins/vue-slick.js',ssr:false}
+        { src: '~/plugins/vue-slick',ssr:false}
     ]
 }
