@@ -12,6 +12,9 @@ module.exports = {
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
             {hid: 'description', name: 'description', content: 'Nuxt.js project'}
         ],
+        script: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+        ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
         ]
@@ -36,13 +39,11 @@ module.exports = {
                     exclude: /(node_modules)/
                 })
             }
+            vendor: ['vue-slick']
         },
-        publicPath: 'https://liorwen.github.io/nuxttest/',
-        plugins: [
-            new webpack.ProvidePlugin({
-                '$': 'jquery',
-            })
-        ]
-
+        /* publicPath: 'https://liorwen.github.io/nuxttest/',*/
     },
+    plugins:[
+        { src: '~/plugins/vue-slick.js',ssr:false}
+    ]
 }

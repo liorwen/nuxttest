@@ -1,15 +1,34 @@
-<template lang="pug" src="./index.pug">
-
+<template>
+    <slick
+            ref="slick"
+            :options="slickOptions"
+            @afterChange="handleAfterChange"
+            @beforeChange="handleBeforeChange"
+            @breakpoint="handleBreakpoint"
+            @destroy="handleDestroy"
+            @edge="handleEdge"
+            @init="handleInit"
+            @reInit="handleReInit"
+            @setPosition="handleSetPosition"
+            @swipe="handleSwipe"
+            @lazyLoaded="handleLazyLoaded"
+            @lazyLoadError="handleLazeLoadError">
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+        <a href="http://placehold.it/200x100"><img src="http://placehold.it/200x100" alt=""></a>
+    </slick>
 </template>
-
+<style lang="scss">
+    @import "~/node_modules/slick-carousel/slick/slick.css";
+</style>
 <script>
     import AppLogo from '~/components/AppLogo.vue';
-    import Slick from 'vue-slick';
-
     export default {
         components: {
             AppLogo,
-            Slick
         },
         data() {
             return {
