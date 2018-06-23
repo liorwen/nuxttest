@@ -41,7 +41,7 @@ module.exports = {
             }
             vendor: ['vue-slick']
         },
-        /* publicPath: 'https://liorwen.github.io/nuxttest/',*/
+        publicPath: 'https://liorwen.github.io/nuxttest/'
     },
     plugins:[
         { src: '~/plugins/vue-slick.js',ssr:false}
