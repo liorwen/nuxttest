@@ -13,7 +13,7 @@ module.exports = {
             {hid: 'description', name: 'description', content: 'Nuxt.js project'}
         ],
         script: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+            {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'}
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
@@ -43,11 +43,20 @@ module.exports = {
                 })
             }
         },
+        extend (config, ctx) {
+            const fileLoader = config.module.rules.find((loader) => loader.loader === 'file-loader')
+            Object.assign(fileLoader,{
+                test:/\.mp3$/,
+                loader: 'file-loader',
+                options: { name: 'audio/[name].[hash:7].[ext]' }
+            })
+        },
+
         vendor: ['~/plugins/vue-slick'],
         // publicPath:'http://local.liorwen.io',
         publicPath: 'https://liorwen.github.io/nuxttest'
     },
-    plugins:[
-        { src: '~/plugins/vue-slick',ssr:false}
+    plugins: [
+        {src: '~/plugins/vue-slick', ssr: false}
     ]
 }
