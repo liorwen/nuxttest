@@ -48,7 +48,7 @@ module.exports = {
             Object.assign(fileLoader,{
                 test:/\.mp3$/,
                 loader: 'file-loader',
-                options: { name: 'audio/[name].[hash:7].[ext]' }
+                options: { name: '/audio/[name].[hash:7].[ext]' }
             })
         },
 
